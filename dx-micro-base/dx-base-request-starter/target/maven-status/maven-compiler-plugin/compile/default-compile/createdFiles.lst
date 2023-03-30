@@ -1,0 +1,7 @@
+com\dx\request\RequestAutoConfig.class
+com\dx\request\config\FastJsonMessageConverter.class
+com\dx\request\config\WebRequestJsonConfig.class
+com\dx\request\annotation\NotEmpty.class
+com\dx\request\util\NotEmptyUtil.class
+com\dx\request\annotation\RequestJsonBodyMethodProcessor.class
+com\dx\request\annotation\RequestJsonBody.class

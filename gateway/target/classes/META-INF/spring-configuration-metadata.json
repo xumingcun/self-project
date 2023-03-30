@@ -1,0 +1,46 @@
+{
+  "groups": [
+    {
+      "name": "security.ignore",
+      "type": "com.dx.management.config.IgnoreWhiteProperties",
+      "sourceType": "com.dx.management.config.IgnoreWhiteProperties"
+    },
+    {
+      "name": "user.auth",
+      "type": "com.dx.management.config.AuthProperties",
+      "sourceType": "com.dx.management.config.AuthProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "security.ignore.end-point",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.dx.management.config.IgnoreWhiteProperties"
+    },
+    {
+      "name": "security.ignore.whites",
+      "type": "java.util.List<java.lang.String>",
+      "description": "放行的白名单列表，网关不校验此处的路径",
+      "sourceType": "com.dx.management.config.IgnoreWhiteProperties"
+    },
+    {
+      "name": "user.auth.expiration",
+      "type": "java.lang.Long",
+      "description": "过期时间，默认720（分钟）",
+      "sourceType": "com.dx.management.config.AuthProperties"
+    },
+    {
+      "name": "user.auth.refresh-time",
+      "type": "java.lang.Long",
+      "description": "用户token刷新时间，默认120（分钟）",
+      "sourceType": "com.dx.management.config.AuthProperties"
+    },
+    {
+      "name": "user.auth.secret",
+      "type": "java.lang.String",
+      "description": "JWT密钥",
+      "sourceType": "com.dx.management.config.AuthProperties"
+    }
+  ],
+  "hints": []
+}
